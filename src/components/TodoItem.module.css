@@ -1,14 +1,58 @@
 .q1{
-    width:200px;
-    height:40px;
-    background: #ffcc00;
+    width:300px;
+    height:auto;
+    background-color: #ffe26e;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
 }
 .check
-{
+{   width:200px;
     text-decoration: line-through;
     color: red;
+    word-wrap: break-word;
 }
+.notcheck{
+    width:200px;
+    word-wrap: break-word;
+}
+.q3{
+    height: auto;
+    width:500px;
+    margin: auto;
+    margin-top: 100px;
+    background: #ffcc00;
+    
+}
+.q2{
+    display: flex;
+    justify-content: center;
+}
+.q4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    background: #ffcc00;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+  }
+  .box{
+      height:30px;
+      width:270px;
+      border-radius: 10px;
+  }
+  button{
+      border: none;
+      background: none;
+  }
+  button:hover{
+      cursor: pointer;
+  }

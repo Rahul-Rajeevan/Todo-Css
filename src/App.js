@@ -1,9 +1,13 @@
 import React from 'react';
 import Todo from './components/Todo';
+import styles from './components/TodoItem.module.css'
 
 function App() {
   return (
-   <Todo/>
+    <div className={styles.main}>
+      <Todo/>
+    </div>
+   
   );
 }
 

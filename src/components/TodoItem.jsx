@@ -9,7 +9,7 @@ const TodoItem = ({value,id,compl,onDelete}) => {
   return (
     <div className={styles.q1}>
     <input type="checkbox" checked={completed} onChange={weChange}/>  
-    <div className={completed?styles.check:null}>{value}</div>
+    <div className={completed?styles.check:styles.notcheck}>{value}</div>
     <button onClick={()=>onDelete(id)}>X</button>
     </div>
   )
