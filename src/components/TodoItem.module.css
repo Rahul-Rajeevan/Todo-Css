@@ -1,0 +1,14 @@
+.q1{
+    width:200px;
+    height:40px;
+    background: #ffcc00;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check
+{
+    text-decoration: line-through;
+    color: red;
+}
